@@ -1,0 +1,17 @@
+Assignment  : CS 260, Fall 2019, Lab Test
+
+C:/Users/andrewshipman/eclipse-workspace/SQLFE_project/files/lt_s04.sql: --I also tried this solution for question 2:
+C:/Users/andrewshipman/eclipse-workspace/SQLFE_project/files/lt_s04.sql: --SELECT AccOpenLocation, AccStatus, COUNT(AccNumber)
+C:/Users/andrewshipman/eclipse-workspace/SQLFE_project/files/lt_s04.sql: --FROM Account
+C:/Users/andrewshipman/eclipse-workspace/SQLFE_project/files/lt_s04.sql: --GROUP BY AccOpenLocation, AccStatus, COUNT(AccNumber)
+C:/Users/andrewshipman/eclipse-workspace/SQLFE_project/files/lt_s04.sql: --HAVING AccStatus = 'Active'
+C:/Users/andrewshipman/eclipse-workspace/SQLFE_project/files/lt_s04.sql: --    UNION
+C:/Users/andrewshipman/eclipse-workspace/SQLFE_project/files/lt_s04.sql: --(SELECT AccOpenLocation, AccStatus, COUNT(AccNumber)
+C:/Users/andrewshipman/eclipse-workspace/SQLFE_project/files/lt_s04.sql: --FROM Account
+C:/Users/andrewshipman/eclipse-workspace/SQLFE_project/files/lt_s04.sql: --GROUP BY AccOpenLocation, AccStatus, COUNT(AccNumber)
+C:/Users/andrewshipman/eclipse-workspace/SQLFE_project/files/lt_s04.sql: --HAVING AccStatus = 'Closed')   
+C:/Users/andrewshipman/eclipse-workspace/SQLFE_project/files/lt_s04.sql: --    UNION
+C:/Users/andrewshipman/eclipse-workspace/SQLFE_project/files/lt_s04.sql: --(SELECT AccOpenLocation, AccStatus, COUNT(AccNumber)
+C:/Users/andrewshipman/eclipse-workspace/SQLFE_project/files/lt_s04.sql: --FROM Account
+C:/Users/andrewshipman/eclipse-workspace/SQLFE_project/files/lt_s04.sql: --GROUP BY AccOpenLocation, AccStatus, COUNT(AccNumber)
+C:/Users/andrewshipman/eclipse-workspace/SQLFE_project/files/lt_s04.sql: --HAVING AccStatus = 'Frozen');

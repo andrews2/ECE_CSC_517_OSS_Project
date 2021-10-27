@@ -1,1 +1,1 @@
-# ECE_CSC_517_OSS_Project
+# SQL File Evaluation tool - see documentation for installation and usage in /docs folder

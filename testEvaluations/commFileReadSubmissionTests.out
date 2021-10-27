@@ -1,0 +1,7 @@
+Assignment  : testAssignment
+
+./files-sample-MySQL/lt_s66.sql: -- Customer ( _CustID_ , FName, LName, PIN)
+./files-sample-MySQL/lt_s66.sql: -- Account ( _AccNumber_ , AccType, AccBalance, Customer (FK), AccOpenLocation, 
+./files-sample-MySQL/lt_s66.sql: --                         AccOpenDate, AccClosedDate, AccStatus)
+./files-sample-MySQL/lt_s66.sql: -- Transaction ( _TransID_ , AccNumber (FK), TransAmount, TransDateTime, 
+./files-sample-MySQL/lt_s66.sql: --                         TransType, TransLocation)
